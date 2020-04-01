@@ -18,7 +18,7 @@ Feature: Validating place API'S
    # |  Shewli  | (718) 88 893 3999           |   N 75th street    |
 
 
- @deletePlace
+ @deletePlace @Regression
  Scenario: Verify if delete Place functionality is working
 
      Given DeletePlace Payload
